@@ -178,3 +178,59 @@ seurat.rambow.subset <- subset(seurat.rambow.subset, idents = c("SMC","NCSC","in
 
 # Export the Seurat object
 saveRDS(seurat.rambow.subset, "seurat_rambow_subset.RDS")
+
+# Retrieve the session information
+# sessionInfo()
+
+# R version 4.0.2 (2020-06-22)
+# Platform: x86_64-apple-darwin17.0 (64-bit)
+# Running under: OS X  13.3
+# 
+# Matrix products: default
+# LAPACK: /Library/Frameworks/R.framework/Versions/4.0/Resources/lib/libRlapack.dylib
+# 
+# locale:
+#   [1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+# 
+# attached base packages:
+#   [1] parallel  stats     graphics  grDevices utils     datasets  methods   base     
+# 
+# other attached packages:
+#   [1] biomaRt_2.44.4      dplyr_1.0.5         SeuratObject_4.0.0  Seurat_4.0.1       
+# [5] GEOquery_2.56.0     Biobase_2.48.0      BiocGenerics_0.34.0
+# 
+# loaded via a namespace (and not attached):
+#   [1] Rtsne_0.15            colorspace_2.0-0      deldir_0.2-10         ellipsis_0.3.1       
+# [5] ggridges_0.5.3        rstudioapi_0.13       spatstat.data_2.1-0   farver_2.1.0         
+# [9] leiden_0.3.7          listenv_0.8.0         bit64_4.0.5           ggrepel_0.9.1        
+# [13] RSpectra_0.16-0       AnnotationDbi_1.50.3  fansi_0.4.2           xml2_1.3.2           
+# [17] codetools_0.2-18      splines_4.0.2         cachem_1.0.4          polyclip_1.10-0      
+# [21] jsonlite_1.7.2        ica_1.0-2             dbplyr_2.1.1          cluster_2.1.2        
+# [25] png_0.1-7             uwot_0.1.10           shiny_1.6.0           sctransform_0.3.2    
+# [29] spatstat.sparse_2.0-0 readr_1.4.0           compiler_4.0.2        httr_1.4.2           
+# [33] assertthat_0.2.1      Matrix_1.3-2          fastmap_1.1.0         lazyeval_0.2.2       
+# [37] cli_3.6.2             limma_3.44.3          later_1.2.0           prettyunits_1.1.1    
+# [41] htmltools_0.5.1.1     tools_4.0.2           igraph_1.2.6          gtable_0.3.0         
+# [45] glue_1.4.2            RANN_2.6.1            reshape2_1.4.4        rappdirs_0.3.3       
+# [49] Rcpp_1.0.6            scattermore_0.7       vctrs_0.3.7           nlme_3.1-152         
+# [53] lmtest_0.9-38         stringr_1.4.0         globals_0.14.0        mime_0.10            
+# [57] miniUI_0.1.1.1        lifecycle_1.0.0       irlba_2.3.3           XML_3.99-0.6         
+# [61] goftest_1.2-2         future_1.21.0         MASS_7.3-53.1         zoo_1.8-9            
+# [65] scales_1.1.1          spatstat.core_2.1-2   hms_1.0.0             promises_1.2.0.1     
+# [69] spatstat.utils_2.1-0  RColorBrewer_1.1-2    curl_4.3              memoise_2.0.0        
+# [73] reticulate_1.19       pbapply_1.4-3         gridExtra_2.3         ggplot2_3.3.3        
+# [77] rpart_4.1-15          stringi_1.5.3         RSQLite_2.2.7         S4Vectors_0.26.1     
+# [81] rlang_0.4.10          pkgconfig_2.0.3       matrixStats_0.58.0    lattice_0.20-41      
+# [85] ROCR_1.0-11           purrr_0.3.4           tensor_1.5            labeling_0.4.2       
+# [89] patchwork_1.1.1       htmlwidgets_1.5.3     bit_4.0.4             cowplot_1.1.1        
+# [93] tidyselect_1.1.0      parallelly_1.24.0     RcppAnnoy_0.0.18      plyr_1.8.6           
+# [97] magrittr_2.0.1        R6_2.5.0              IRanges_2.22.2        generics_0.1.0       
+# [101] DBI_1.1.1             withr_2.4.2           pillar_1.6.0          mgcv_1.8-35          
+# [105] fitdistrplus_1.1-3    survival_3.2-11       abind_1.4-5           tibble_3.1.1         
+# [109] future.apply_1.7.0    crayon_1.4.1          KernSmooth_2.23-18    utf8_1.2.1           
+# [113] BiocFileCache_1.12.1  spatstat.geom_2.1-0   plotly_4.9.3          progress_1.2.2       
+# [117] grid_4.0.2            data.table_1.14.0     blob_1.2.1            digest_0.6.27        
+# [121] xtable_1.8-4          tidyr_1.1.3           httpuv_1.6.0          openssl_1.4.3        
+# [125] stats4_4.0.2          munsell_0.5.0         viridisLite_0.4.0     askpass_1.1 
+
+

@@ -155,3 +155,51 @@ treatment.signatures.per.CellLine <- list("TGFb_M170117.signature" = TGFb_vs_DMS
 
 # Export the object
 saveRDS(treatment.signatures.per.CellLine, "path/to/folder/where/file/will/be/stored/treatment_signatures_per_CellLine.RDS")
+
+# Retrieve the session information
+# sessionInfo()
+
+# R version 4.0.2 (2020-06-22)
+# Platform: x86_64-apple-darwin17.0 (64-bit)
+# Running under: OS X  13.3
+# 
+# Matrix products: default
+# LAPACK: /Library/Frameworks/R.framework/Versions/4.0/Resources/lib/libRlapack.dylib
+# 
+# locale:
+#   [1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+# 
+# attached base packages:
+#   [1] grid      stats     graphics  grDevices utils     datasets  methods   base     
+# 
+# other attached packages:
+#   [1] RColorBrewer_1.1-2   dplyr_1.0.5          ComplexHeatmap_2.4.3
+# 
+# loaded via a namespace (and not attached):
+#   [1] locfit_1.5-9.4              Rcpp_1.0.6                  lattice_0.20-41            
+# [4] circlize_0.4.13             png_0.1-7                   assertthat_0.2.1           
+# [7] utf8_1.2.1                  R6_2.5.0                    GenomeInfoDb_1.24.2        
+# [10] stats4_4.0.2                RSQLite_2.2.7               ggplot2_3.3.3              
+# [13] pillar_1.6.0                GlobalOptions_0.1.2         zlibbioc_1.34.0            
+# [16] rlang_0.4.10                annotate_1.66.0             blob_1.2.1                 
+# [19] S4Vectors_0.26.1            GetoptLong_1.0.5            Matrix_1.3-2               
+# [22] splines_4.0.2               BiocParallel_1.22.0         geneplotter_1.66.0         
+# [25] munsell_0.5.0               RCurl_1.98-1.3              bit_4.0.4                  
+# [28] DelayedArray_0.14.1         compiler_4.0.2              pkgconfig_2.0.3            
+# [31] BiocGenerics_0.34.0         shape_1.4.6                 tidyselect_1.1.0           
+# [34] SummarizedExperiment_1.18.2 tibble_3.1.1                GenomeInfoDbData_1.2.3     
+# [37] IRanges_2.22.2              matrixStats_0.58.0          XML_3.99-0.6               
+# [40] fansi_0.4.2                 crayon_1.4.1                bitops_1.0-7               
+# [43] xtable_1.8-4                gtable_0.3.0                lifecycle_1.0.0            
+# [46] DBI_1.1.1                   magrittr_2.0.1              scales_1.1.1               
+# [49] cachem_1.0.4                XVector_0.28.0              genefilter_1.70.0          
+# [52] ellipsis_0.3.1              generics_0.1.0              vctrs_0.3.7                
+# [55] rjson_0.2.20                tools_4.0.2                 bit64_4.0.5                
+# [58] Biobase_2.48.0              glue_1.4.2                  DESeq2_1.28.1              
+# [61] purrr_0.3.4                 parallel_4.0.2              fastmap_1.1.0              
+# [64] survival_3.2-11             clue_0.3-60                 AnnotationDbi_1.50.3       
+# [67] colorspace_2.0-0            cluster_2.1.2               GenomicRanges_1.40.0       
+# [70] memoise_2.0.0
+
+
+

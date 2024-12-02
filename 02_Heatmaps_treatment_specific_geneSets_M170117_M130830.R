@@ -250,3 +250,51 @@ length(unique(mouse.GO.apopt.neg.genes.to.human$Gene.name.1))
 # Export the file
 xlsx::write.xlsx(mouse.GO.apopt.neg.genes.to.human, "Apoptosis_related_genes_mouse_to_human_negative_regulators.xlsx")
 
+# Retrieve the session information
+# sessionInfo()
+
+# R version 4.0.2 (2020-06-22)
+# Platform: x86_64-apple-darwin17.0 (64-bit)
+# Running under: OS X  13.3
+# 
+# Matrix products: default
+# LAPACK: /Library/Frameworks/R.framework/Versions/4.0/Resources/lib/libRlapack.dylib
+# 
+# locale:
+#   [1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+# 
+# attached base packages:
+#   [1] grid      parallel  stats4    stats     graphics  grDevices utils     datasets  methods  
+# [10] base     
+# 
+# other attached packages:
+#   [1] org.Mm.eg.db_3.11.4         org.Hs.eg.db_3.11.4         AnnotationDbi_1.50.3       
+# [4] biomaRt_2.44.4              RColorBrewer_1.1-2          ComplexHeatmap_2.4.3       
+# [7] genefilter_1.70.0           dplyr_1.0.5                 DESeq2_1.28.1              
+# [10] SummarizedExperiment_1.18.2 DelayedArray_0.14.1         matrixStats_0.58.0         
+# [13] Biobase_2.48.0              GenomicRanges_1.40.0        GenomeInfoDb_1.24.2        
+# [16] IRanges_2.22.2              S4Vectors_0.26.1            BiocGenerics_0.34.0        
+# 
+# loaded via a namespace (and not attached):
+#   [1] httr_1.4.2             bit64_4.0.5            splines_4.0.2          assertthat_0.2.1      
+# [5] askpass_1.1            BiocFileCache_1.12.1   blob_1.2.1             xlsxjars_0.6.1        
+# [9] GenomeInfoDbData_1.2.3 cellranger_1.1.0       progress_1.2.2         pillar_1.6.0          
+# [13] RSQLite_2.2.7          lattice_0.20-41        glue_1.4.2             XVector_0.28.0        
+# [17] colorspace_2.0-0       Matrix_1.3-2           XML_3.99-0.6           pkgconfig_2.0.3       
+# [21] GetoptLong_1.0.5       zlibbioc_1.34.0        purrr_0.3.4            xtable_1.8-4          
+# [25] scales_1.1.1           BiocParallel_1.22.0    openssl_1.4.3          tibble_3.1.1          
+# [29] annotate_1.66.0        generics_0.1.0         ggplot2_3.3.3          ellipsis_0.3.1        
+# [33] cachem_1.0.4           survival_3.2-11        magrittr_2.0.1         crayon_1.4.1          
+# [37] readxl_1.3.1           memoise_2.0.0          fansi_0.4.2            xml2_1.3.2            
+# [41] prettyunits_1.1.1      tools_4.0.2            hms_1.0.0              GlobalOptions_0.1.2   
+# [45] lifecycle_1.0.0        stringr_1.4.0          xlsx_0.6.5             munsell_0.5.0         
+# [49] locfit_1.5-9.4         cluster_2.1.2          compiler_4.0.2         rlang_0.4.10          
+# [53] RCurl_1.98-1.3         rappdirs_0.3.3         rjson_0.2.20           circlize_0.4.13       
+# [57] bitops_1.0-7           gtable_0.3.0           curl_4.3               DBI_1.1.1             
+# [61] R6_2.5.0               fastmap_1.1.0          bit_4.0.4              utf8_1.2.1            
+# [65] clue_0.3-60            shape_1.4.6            stringi_1.5.3          rJava_1.0-5           
+# [69] Rcpp_1.0.6             vctrs_0.3.7            geneplotter_1.66.0     png_0.1-7             
+# [73] dbplyr_2.1.1           tidyselect_1.1.0  
+
+
+

@@ -517,3 +517,60 @@ ht_list <- heatm.AXL.M130830 %v% heatm.MITF.M130830 %v% heatm.tirosh.RES.M130830
 draw(ht_list)
 # dev.off()
 
+# Retrieve the session information
+# sessionInfo()
+
+# R version 4.0.2 (2020-06-22)
+# Platform: x86_64-apple-darwin17.0 (64-bit)
+# Running under: OS X  13.3
+# 
+# Matrix products: default
+# LAPACK: /Library/Frameworks/R.framework/Versions/4.0/Resources/lib/libRlapack.dylib
+# 
+# locale:
+#   [1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+# 
+# attached base packages:
+#   [1] parallel  stats4    grid      stats     graphics  grDevices utils     datasets  methods  
+# [10] base     
+# 
+# other attached packages:
+#   [1] DESeq2_1.28.1               SummarizedExperiment_1.18.2 DelayedArray_0.14.1        
+# [4] matrixStats_0.58.0          Biobase_2.48.0              GenomicRanges_1.40.0       
+# [7] GenomeInfoDb_1.24.2         IRanges_2.22.2              S4Vectors_0.26.1           
+# [10] BiocGenerics_0.34.0         ComplexHeatmap_2.4.3        RColorBrewer_1.1-2         
+# [13] ggplot2_3.3.3               dplyr_1.0.5                 enrichplot_1.8.1           
+# [16] clusterProfiler_3.16.1     
+# 
+# loaded via a namespace (and not attached):
+#   [1] fgsea_1.14.0           colorspace_2.0-0       rjson_0.2.20           ellipsis_0.3.1        
+# [5] ggridges_0.5.3         circlize_0.4.13        qvalue_2.20.0          XVector_0.28.0        
+# [9] GlobalOptions_0.1.2    rstudioapi_0.13        clue_0.3-60            farver_2.1.0          
+# [13] urltools_1.7.3         graphlayouts_0.7.1     ggrepel_0.9.1          bit64_4.0.5           
+# [17] AnnotationDbi_1.50.3   fansi_0.4.2            scatterpie_0.1.7       xml2_1.3.2            
+# [21] splines_4.0.2          cachem_1.0.4           GOSemSim_2.14.2        geneplotter_1.66.0    
+# [25] polyclip_1.10-0        jsonlite_1.7.2         annotate_1.66.0        cluster_2.1.2         
+# [29] GO.db_3.11.4           png_0.1-7              ggforce_0.3.3          BiocManager_1.30.12   
+# [33] compiler_4.0.2         httr_1.4.2             rvcheck_0.2.1          assertthat_0.2.1      
+# [37] Matrix_1.3-2           fastmap_1.1.0          cli_3.6.2              tweenr_1.0.2          
+# [41] prettyunits_1.1.1      tools_4.0.2            igraph_1.2.6           gtable_0.3.0          
+# [45] glue_1.4.2             GenomeInfoDbData_1.2.3 reshape2_1.4.4         DO.db_2.9             
+# [49] fastmatch_1.1-3        Rcpp_1.0.6             cellranger_1.1.0       vctrs_0.3.7           
+# [53] ggraph_2.0.5           stringr_1.4.0          lifecycle_1.0.0        XML_3.99-0.6          
+# [57] DOSE_3.14.0            europepmc_0.4.1        MASS_7.3-53.1          zlibbioc_1.34.0       
+# [61] scales_1.1.1           tidygraph_1.2.0        hms_1.0.0              memoise_2.0.0         
+# [65] gridExtra_2.3          downloader_0.4         ggfun_0.0.9            yulab.utils_0.0.4     
+# [69] triebeard_0.3.0        stringi_1.5.3          RSQLite_2.2.7          genefilter_1.70.0     
+# [73] BiocParallel_1.22.0    shape_1.4.6            rlang_0.4.10           pkgconfig_2.0.3       
+# [77] bitops_1.0-7           lattice_0.20-41        purrr_0.3.4            labeling_0.4.2        
+# [81] cowplot_1.1.1          bit_4.0.4              tidyselect_1.1.0       plyr_1.8.6            
+# [85] magrittr_2.0.1         R6_2.5.0               generics_0.1.0         DBI_1.1.1             
+# [89] pillar_1.6.0           withr_2.4.2            survival_3.2-11        RCurl_1.98-1.3        
+# [93] tibble_3.1.1           crayon_1.4.1           utf8_1.2.1             viridis_0.6.0         
+# [97] GetoptLong_1.0.5       progress_1.2.2         locfit_1.5-9.4         readxl_1.3.1          
+# [101] data.table_1.14.0      blob_1.2.1             digest_0.6.27          xtable_1.8-4          
+# [105] tidyr_1.1.3            gridGraphics_0.5-1     munsell_0.5.0          viridisLite_0.4.0     
+# [109] ggplotify_0.1.0  
+
+
+

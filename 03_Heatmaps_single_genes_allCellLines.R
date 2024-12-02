@@ -205,3 +205,48 @@ for (i in 1:length(genes.oi.enseml)) {
   print(ht1)
   dev.off()
 }
+
+# Retrieve the session information
+# sessionInfo()
+
+# R version 4.0.2 (2020-06-22)
+# Platform: x86_64-apple-darwin17.0 (64-bit)
+# Running under: OS X  13.3
+# 
+# Matrix products: default
+# LAPACK: /Library/Frameworks/R.framework/Versions/4.0/Resources/lib/libRlapack.dylib
+# 
+# locale:
+#   [1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+# 
+# attached base packages:
+#   [1] grid      parallel  stats4    stats     graphics  grDevices utils     datasets  methods  
+# [10] base     
+# 
+# other attached packages:
+#   [1] RColorBrewer_1.1-2          ComplexHeatmap_2.4.3        dplyr_1.0.5                
+# [4] DESeq2_1.28.1               SummarizedExperiment_1.18.2 DelayedArray_0.14.1        
+# [7] matrixStats_0.58.0          Biobase_2.48.0              GenomicRanges_1.40.0       
+# [10] GenomeInfoDb_1.24.2         IRanges_2.22.2              S4Vectors_0.26.1           
+# [13] BiocGenerics_0.34.0        
+# 
+# loaded via a namespace (and not attached):
+#   [1] Rcpp_1.0.6             locfit_1.5-9.4         circlize_0.4.13        lattice_0.20-41       
+# [5] png_0.1-7              assertthat_0.2.1       utf8_1.2.1             R6_2.5.0              
+# [9] RSQLite_2.2.7          ggplot2_3.3.3          pillar_1.6.0           GlobalOptions_0.1.2   
+# [13] zlibbioc_1.34.0        rlang_0.4.10           annotate_1.66.0        blob_1.2.1            
+# [17] GetoptLong_1.0.5       Matrix_1.3-2           splines_4.0.2          BiocParallel_1.22.0   
+# [21] geneplotter_1.66.0     RCurl_1.98-1.3         bit_4.0.4              munsell_0.5.0         
+# [25] compiler_4.0.2         pkgconfig_2.0.3        shape_1.4.6            tidyselect_1.1.0      
+# [29] tibble_3.1.1           GenomeInfoDbData_1.2.3 XML_3.99-0.6           fansi_0.4.2           
+# [33] crayon_1.4.1           bitops_1.0-7           xtable_1.8-4           gtable_0.3.0          
+# [37] lifecycle_1.0.0        DBI_1.1.1              magrittr_2.0.1         scales_1.1.1          
+# [41] cachem_1.0.4           XVector_0.28.0         genefilter_1.70.0      ellipsis_0.3.1        
+# [45] vctrs_0.3.7            generics_0.1.0         rjson_0.2.20           tools_4.0.2           
+# [49] bit64_4.0.5            glue_1.4.2             purrr_0.3.4            fastmap_1.1.0         
+# [53] survival_3.2-11        clue_0.3-60            AnnotationDbi_1.50.3   colorspace_2.0-0      
+# [57] cluster_2.1.2          memoise_2.0.0  
+
+
+
+
