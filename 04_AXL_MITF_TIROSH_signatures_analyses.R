@@ -21,7 +21,7 @@ setwd(wd)
 # Load the pre-computed outputs
 load("path/to/folder/where/file/is/stored/outputs.RData") 
 
-# Load and format the gene signatures (from Tirosh et al., 2019. Science)
+# Load and format the gene signatures (from Tirosh et al., 2016. Science. DOI: 10.1126/science.aad0501)
 # AXL signature
 AXL.signature <- readxl::read_xlsx(paste0(pathData, "aad0501_table_s8.xlsx"), skip = 4, col_names = FALSE)
 AXL.signature
