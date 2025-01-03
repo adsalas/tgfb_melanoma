@@ -2,7 +2,7 @@
 
 # NOTE:
 #      1. The main  goal of this script is to create a Seurat object using as input the Rambow scRNAseq data, as detailed below.
-#      2. Alternatively, a pre-computed Seurat object is available in Github under the "files" folder. The object can be used as input for running script 07. 
+#      2. Alternatively, a pre-computed Seurat object is available in Zenodo at: https://doi.org/10.5281/zenodo.14581399. The object can be used as input for running script 07. 
 
 
 # Load the libraries ----
